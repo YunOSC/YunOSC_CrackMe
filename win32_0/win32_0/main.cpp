@@ -1,8 +1,7 @@
 #include<Windows.h>
 #include"resource.h"
 
-char  ID[128];  //
-char  Password[128];//
+
 
 BOOL Check(char *, char *);
 
@@ -15,12 +14,21 @@ INT_PTR CALLBACK MainDlgProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		case WM_COMMAND:
 			if (LOWORD(wParam) == IDC_BUTTON1 && HIWORD(wParam) == BN_CLICKED)
 			{
+				char  ID[128];  //
+				char  Password[128];//
+
 				GetWindowText(GetDlgItem(hDlg, IDC_EDIT1), ID, 128);
 				GetWindowText(GetDlgItem(hDlg, IDC_EDIT2), Password, 128);
 				if (*ID != 0 && *Password != 0) {
 					if (Check(ID, Password)) {
-						MessageBox(hDlg,"You got it!", "HAHAHAHYou got it!",MB_OK);
+						MessageBox(hDlg,"YunOSC{First_Win32!!!!}", "You got it!",MB_OK);
 					}
+					else {
+						MessageBox(hDlg,  "Try again~~", "Failed", MB_OK);
+					}
+				}
+				else {
+					MessageBox(hDlg, "Please input , thanks....", "Error", MB_OK);
 				}
 			}
 			break;
@@ -36,5 +44,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
 }
 
 BOOL Check(char *ID, char *Password) {
-	return TRUE;
+	if (!strcmp(ID, "YunOSC") && !strcmp(Password, "hahahasoqjowfjlasdfjpoqrghasldfjaposdg")) {
+		return TRUE;
+	}
+	return FALSE;
 }
