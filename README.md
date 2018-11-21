@@ -16,5 +16,5 @@
 ### Win32
 
 - win32_analyze
-
+- win32_0
 
