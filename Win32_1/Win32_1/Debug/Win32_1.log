@@ -1,1 +1,4 @@
-﻿  Win32_1.vcxproj -> D:\SolitaryM_Github\YunOSC_CrackMe\Win32_1\Debug\Win32_1.exe
+﻿  main.cpp
+d:\solitarym_github\yunosc_crackme\win32_1\win32_1\main.cpp(46): warning C4018: '<': signed/unsigned 不相符
+  LINK : 最後的累加連結找不到或未建置 D:\SolitaryM_Github\YunOSC_CrackMe\Win32_1\Debug\Win32_1.exe，正在執行完整連結
+  Win32_1.vcxproj -> D:\SolitaryM_Github\YunOSC_CrackMe\Win32_1\Debug\Win32_1.exe
