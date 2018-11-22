@@ -3,6 +3,7 @@
 INT_PTR CALLBACK MainDlgProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM lParam);
 BOOL Check(char *);
 void Encrypt(char *);
+char  flag[] = "XtoNRBz^yns^dobsxqu|";
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine, int nCmdShow) {
 	DialogBox(hInstance, MAKEINTRESOURCE(IDD_DIALOG1), NULL, MainDlgProc);
 }
@@ -47,7 +48,7 @@ void Encrypt(char *Str) {
 	}
 }
 BOOL Check(char *Str) {
-	char  flag[] = "XtoNRBz^yns^dobsxqu|";
+	
 	if (!strcmp(Str, flag)) {
 		return TRUE;
 	}
