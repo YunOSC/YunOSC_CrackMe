@@ -1,4 +1,4 @@
 ﻿  CrackMe_2.cpp
-d:\solitarym_github\yunosc_cm\crackme_2\crackme_2\crackme_2.cpp(34): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
-d:\solitarym_github\yunosc_cm\crackme_2\crackme_2\crackme_2.cpp(64): warning C4101: 'c': 未參考的區域變數
-  CrackMe_2.vcxproj -> D:\SolitaryM_Github\YunOSC_CM\CrackMe_2\Debug\CrackMe_2.exe
+d:\solitarym_github\yunosc_crackme\crackme_2\crackme_2\crackme_2.cpp(34): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+d:\solitarym_github\yunosc_crackme\crackme_2\crackme_2\crackme_2.cpp(64): warning C4101: 'c': 未參考的區域變數
+  CrackMe_2.vcxproj -> D:\SolitaryM_Github\YunOSC_CrackMe\CrackMe_2\Debug\CrackMe_2.exe

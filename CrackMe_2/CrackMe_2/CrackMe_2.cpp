@@ -25,7 +25,7 @@ DWORD WINAPI TimeCount(LPVOID lpParam)
 		Sleep(1000);
 	}
 	printf("Time Over!\n");
-	Sleep(3000);
+	Sleep(1500);
 	exit(1);
 
 }
