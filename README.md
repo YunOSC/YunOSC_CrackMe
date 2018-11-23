@@ -18,4 +18,5 @@
 - Win32_Analyze
 - Win32_0
 - Win32_1
+- Win32_AD
 
